@@ -20,7 +20,9 @@ class Library:
     def add_book(self, title, author):
         book = Book(title, author)
         self.books.append(book)
-        print(f"Book '{title}' added successfully.")
+        self.save_library_to_file()
+
+        # print(f"Book '{title}' added successfully.")
 
     def display_books(self):
         if not self.books:
@@ -64,7 +66,7 @@ class Library:
                 return
         print("Book cannot be returned.")
 
-    def save_library_to_file(self, filename):
+    def save_library_to_file(self):
         filename = "library.json"
         with open(filename, "w") as filename:
             json.dump(
