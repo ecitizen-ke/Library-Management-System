@@ -18,16 +18,6 @@ Functionalities
 - Enhance the search functionality to handle case-insensitive searches.
 - Provide clear and informative user prompts and messages for each action.
 
-Git Repository:
-- Create a Git repository for your project to track changes. Have develop and main branches
-- Initialize the repository with a README.md file describing the project and its functionalities.
-- Commit your code regularly with descriptive commit messages.
-- Ensure your project structure is organized and well-documented.
-
- Testing and Presentation:
-- Test your Library Management System thoroughly to ensure all functionalities are working as expected.
-- Be ready to explain your code and answer any questions about your implementation during the presentation.
-- code is well-commented for clarity.
 
 
 
